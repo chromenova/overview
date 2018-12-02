@@ -1,0 +1,30 @@
+@import url(block-colors.css);
+
+
+html,
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    width: 100%;
+}
+
+#blocks-container {
+    padding: 16px;
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+}
+
+.block {
+    padding: 8px;
+    width: fit-content;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    cursor: default;
+}
+
+.block-text {
+    user-select: none;
+}
